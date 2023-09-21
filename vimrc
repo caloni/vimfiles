@@ -24,6 +24,7 @@ set backupdir=$HOMEPATH/vimfiles/backup
 set cino=t0
 set cmdheight=2
 set complete=.,b,t
+set cursorline
 set directory=.,$TEMP
 set display+=lastline
 set encoding=utf8
