@@ -3,7 +3,7 @@ ca mru MRU
 let MRU_Max_Entries = 50000
 imap :dd :date: <C-R>=strftime("%Y-%m-%d")<C-M>
 imap :rr :draft:
-imap :tt :tags: <C-N>
+imap :tt :tags: tag_<C-N>
 map <C-E><C-W> :set wrap! lbr<CR>
 map <C-F4> :bd<CR>
 map <C-H> :exe
