@@ -20,8 +20,6 @@ map <Space> :
 map <tab> :b #<CR>
 set autoindent
 set backspace=indent,eol,start
-set backup
-set backupdir=$HOMEPATH/vimfiles/backup
 set cino=t0
 set cmdheight=2
 set complete=.,b,t
