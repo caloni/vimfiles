@@ -56,6 +56,7 @@ set undofile
 set undolevels=1000
 set undoreload=10000
 set ve=block
+set viminfo=""
 set visualbell
 set wildmenu
 set wrap lbr
