@@ -1,6 +1,4 @@
 autocmd BufEnter * lcd %:p:h
-ca mru MRU
-let MRU_Max_Entries = 50000
 imap :dd :date: <C-R>=strftime("%Y-%m-%d")<C-M>
 imap :rr :draft:
 imap :tt :tags: tag_<C-N>
