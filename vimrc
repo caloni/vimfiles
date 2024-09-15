@@ -1,7 +1,5 @@
 autocmd BufEnter * lcd %:p:h
-imap :dd :date: <C-R>=strftime("%Y-%m-%d")<C-M>
-imap :rr :draft:
-imap :tt :tags: tag_
+imap <C-D> <C-R>=strftime("%Y-%m-%d")<C-M>
 map <C-E><C-W> :set wrap! lbr<CR>
 map <C-F4> :bd<CR>
 map <C-H> :exe
