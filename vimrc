@@ -18,6 +18,7 @@ map <Leader>y "+y
 map <Space> :
 map <tab> :b #<CR>
 set autoindent
+set background=light
 set backspace=indent,eol,start
 set cino=t0
 set cmdheight=2
