@@ -2,6 +2,7 @@ autocmd BufEnter * lcd %:p:h
 imap <C-D> <C-R>=strftime("%Y-%m-%d")<C-M>
 map <C-E><C-E> :e ++encoding=
 map <C-E><C-W> :set wrap! lbr<CR>
+map <C-F4> :bd<CR>
 map <C-S-Tab> :bp<CR>
 map <C-Space> :!
 map <C-Z> :buffers<CR>:buffer<Space>
