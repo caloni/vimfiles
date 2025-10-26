@@ -1,5 +1,6 @@
 autocmd BufEnter * lcd %:p:h
 imap <C-D> <C-R>=strftime("%Y-%m-%d")<C-M>
+imap <C-N> #<C-M>date: <C-R>=strftime("%Y-%m-%d")<C-M><C-M>tags: 
 map <C-E><C-E> :e ++encoding=
 map <C-E><C-W> :set wrap! lbr<CR>
 map <C-F4> :bd<CR>
