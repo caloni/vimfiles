@@ -46,7 +46,11 @@ set statusline+=\ %P
 set statusline+=\ %l,%c
 set tabstop=2
 set tags=tags;
-set undodir=$HOMEPATH/vimfiles/undo
+let s:undo_dir = $USERPROFILE . '/vimfiles/undo'
+if !isdirectory(s:undo_dir)
+    call mkdir(s:undo_dir, "p")
+endif
+let &undodir = s:undo_dir
 set undofile
 set undolevels=1000
 set undoreload=10000
