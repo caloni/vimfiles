@@ -11,7 +11,8 @@ map <C-Tab> :bn<CR>
 map <Esc> :pclose<CR>
 map <Space> :
 map <Leader>* 0y$/\V<c-r>"<cr>
-map <Tab> :b #<CR>
+map ' :b #<CR>
+map ` :b #<CR>
 set autoindent
 set background=light
 set backspace=indent,eol,start
